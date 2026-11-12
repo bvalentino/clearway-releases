@@ -6,6 +6,24 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 3.2.0</title>
+      <pubDate>Thu, 12 Nov 2026 21:22:17 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Give the release tag its message
+* Let agents delete tasks with cway
+* Refresh every Setup row after any install
+* Let agents withdraw a question
+* Copy a prompt you wrote for the task from Run Command
+* Add Backlog and In Review columns to the board
+
+[v3.2.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.2.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.2.0/Clearway-3.2.0.dmg" length="13614409" type="application/octet-stream" sparkle:edSignature="2jZPmFPGVil+KNW7wv3DLZ4FBmYLfjuJRW3FMnBSn2Oo0EKkrNGX4kZFq1UwW6BeJeK7kXmkYObizA4NOr5VBQ=="/>
+    </item>
+    <item>
       <title>Version 3.1.0</title>
       <pubDate>Thu, 12 Nov 2026 15:19:14 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
