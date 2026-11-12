@@ -5,5 +5,29 @@
     <link>https://updates.getclearway.app/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
+    <item>
+      <title>Version 3.0.0</title>
+      <pubDate>Thu, 12 Nov 2026 03:29:28 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Add the task store and cway task commands
+* Add the projects sidebar and the live board
+* Add the task sheet
+* Add onboarding for the cway command and the agent skill
+* Add agent questions
+* Add the Inbox, sidebar dots, Dock badge and notifications
+* Add subtasks and artifacts
+* Add pull requests
+* Add the release pipeline
+* Set the Sparkle public key
+* Import Clearway Terminal's tasks
+* Install cway into ~/.local/bin without an admin prompt
+
+[v3.0.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.0.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.0.0/Clearway-3.0.0.dmg" length="11450698" type="application/octet-stream" sparkle:edSignature="tRjOqgoP0v9/eJAk3wx4I0IxqWrUsuFku8qJilpqOhJP8hAA2vIXQCk/ceMTiIT4Msr5f2/UShei2N0zQ+odAA=="/>
+    </item>
   </channel>
 </rss>
