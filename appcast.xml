@@ -12,10 +12,8 @@
       <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-* Move the app architecture notes into Sources/App/CLAUDE.md
-* Keep the board at the top of the window
-* Do all work in a worktree
-* Run prompts in Rex, or copy them
+* Commands are now called prompts, and a prompt can run in a new Rex session in its project or be copied, chosen in the Prompts settings tab. Hold ⌥ to copy a prompt instead of running it.
+* A board with only a few tasks now stays at the top of the window instead of sitting in the middle.
 
 [v3.3.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.3.0)
       ]]></description>
@@ -28,12 +26,11 @@
       <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-* Give the release tag its message
-* Let agents delete tasks with cway
-* Refresh every Setup row after any install
-* Let agents withdraw a question
-* Copy a prompt you wrote for the task from Run Command
-* Add Backlog and In Review columns to the board
+* The board has two new columns, Backlog at the far left and In Review, and `cway task set-status` accepts both new statuses. The agent skill tells agents to set In Review while a pull request waits on review, and to move Backlog tasks only when you ask.
+* Agents can delete a task and its subtasks with `cway task delete`, and only when you ask or to remove their own mistakes. Tasks deleted from `cway` or the app go to a trash, where you can recover them for 30 days.
+* Agents can withdraw a question that is no longer needed with `cway question withdraw`. A withdrawn question stays in the task's thread marked "Withdrawn", and it leaves the Inbox, badges and notifications.
+* You can write your own named prompts in a new Commands tab in Settings. The Run Command menu on a task's sheet copies one of these prompts, with the task's id and title filled in.
+* The Hooks row in Setup now updates as soon as the Command Line Tool is installed, and it says what it needs first.
 
 [v3.2.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.2.0)
       ]]></description>
@@ -46,9 +43,9 @@
       <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-* Make empty board columns fill their width
-* Make the task description always editable
-* Show which tasks an agent is working on
+* The board shows which tasks an agent is working on with a softly glowing outline, and hovering shows the agent's name. To turn it on, install the Claude Code hooks from the new Hooks row in Setup or Settings; Codex agents don't show yet.
+* A task's description is always editable: click it to edit the Markdown in place, and it saves on its own when you click away, press Esc, close the sheet or switch tasks. If an agent changed it in the meantime or the save fails, you're asked what to keep, so your edits aren't lost silently.
+* Empty board columns now fill their full width, and you can drop a card anywhere in an empty column instead of only on its header.
 
 [v3.1.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.1.0)
       ]]></description>
@@ -61,7 +58,7 @@
       <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-* Give the app its icon
+* Clearway now has its own app icon, showing four lanes with a chevron. Version 3.0.0 shipped with a blank placeholder icon.
 
 [v3.0.1 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.0.1)
       ]]></description>
@@ -74,18 +71,17 @@
       <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-* Add the task store and cway task commands
-* Add the projects sidebar and the live board
-* Add the task sheet
-* Add onboarding for the cway command and the agent skill
-* Add agent questions
-* Add the Inbox, sidebar dots, Dock badge and notifications
-* Add subtasks and artifacts
-* Add pull requests
-* Add the release pipeline
-* Set the Sparkle public key
-* Import Clearway Terminal's tasks
-* Install cway into ~/.local/bin without an admin prompt
+* Clearway opens in one window with a sidebar of your projects and a board for each one, with To Do, In Progress and Done columns. The board updates live as tasks change.
+* Clicking a task opens its sheet, where you can edit the title and description, change the status, copy details or delete the task. You can also drag cards between columns to change their status, and ⌘N creates a new task.
+* Agents can create, list and show tasks with the `cway task` commands, and can change a task's title, status or description. Every command can return JSON, and tasks stay out of your git commits.
+* Agents can ask you a question about a task with `cway question ask` and wait for your reply. You answer in the task sheet by picking an option or writing your own reply.
+* A new Inbox gathers every waiting question across your projects so you can answer them in one place. Projects with open questions get an orange dot, and the Dock badge and notifications tell you when a question is waiting.
+* Tasks can have subtasks, one level deep. They appear inside the parent's card on the board and in the task sheet.
+* Agents can attach Markdown and HTML files to a task with `cway task attach`. They show in the task sheet and open in Quick Look.
+* A task can be linked to a GitHub pull request with `cway task link-pr`, and the board shows its live state using your `gh` command. Clicking the pull request opens it in your browser.
+* A Set Up Clearway sheet on first launch, also available in Settings, installs the `cway` command and the agent skill for Claude Code and Codex. When it can, it installs `cway` without asking for an admin password, so it also works on Macs without admin rights.
+* Clearway now updates itself with signed updates, and Check for Updates… is in the app menu.
+* Tasks from Clearway Terminal are imported automatically the first time a project loads or `cway` runs. The original files are kept, not deleted.
 
 [v3.0.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.0.0)
       ]]></description>
