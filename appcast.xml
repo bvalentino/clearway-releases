@@ -6,6 +6,22 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 3.3.0</title>
+      <pubDate>Fri, 13 Nov 2026 04:11:35 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Move the app architecture notes into Sources/App/CLAUDE.md
+* Keep the board at the top of the window
+* Do all work in a worktree
+* Run prompts in Rex, or copy them
+
+[v3.3.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.3.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.3.0/Clearway-3.3.0.dmg" length="13665759" type="application/octet-stream" sparkle:edSignature="Yo9jKhEhEdWjBp1YNKZqXjv+shNXXAa9lbaO6ZAvJCXDmKGqMyVMZdJTfUTVc2w0t598SFXQ/tOCPg2R5WqaAg=="/>
+    </item>
+    <item>
       <title>Version 3.2.0</title>
       <pubDate>Thu, 12 Nov 2026 21:22:17 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
