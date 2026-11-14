@@ -15,7 +15,7 @@
 * The board has a new layout: lanes run the full height of the window and each scrolls its own cards, while the board scrolls only sideways. The project name, or "Inbox", now appears as the toolbar title, with **+** at the end of the toolbar.
 * Card and subtask titles now wrap instead of being cut off, and a pull request shows as an outlined chip below the title.
 * A card being worked on by an agent now shows two columns of fading dots beside its title instead of a glowing border, and the card keeps its size. With Reduce Motion on, the dots hold still.
-* Status colors now match Linear: yellow for In Progress, green for In Review and indigo for Done.
+* Status icons now have colors: yellow for In Progress, green for In Review and indigo for Done.
 * The task sheet's ⋯ menu has a new Copy Task ID item.
 
 [v3.6.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.6.0)
