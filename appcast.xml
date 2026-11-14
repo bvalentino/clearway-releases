@@ -6,6 +6,26 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 3.4.0</title>
+      <pubDate>Sat, 14 Nov 2026 14:56:38 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* ⌘N and the toolbar + now open a New Task sheet with a title and a description, and nothing is saved until you click Create. Cancel asks before throwing away anything you typed, and after Create the task's full sheet opens in its place.
+* A task's description is now always-editable Markdown that is styled as you type, so a click puts the caret where you click. Clicking a link opens it, and pasting inserts plain text.
+* The board, sidebar, task sheet and Inbox follow the new design more closely, and the sheet header, artifact pills and question options are now system-drawn buttons (Liquid Glass on macOS 26). The In Progress and In Review status icons have a new look.
+* Settings and the Setup sheet are laid out like System Settings and share one width, so the window no longer changes width between tabs. The Prompts tab lists your prompts on the left and shows the selected prompt's name and text on the right.
+* In Prompts settings, a new prompt starts with an empty name showing a grey Untitled placeholder, and its text shows a Prompt placeholder. The − button is disabled when no prompt is selected, and No Prompts and No Prompt Selected now show as larger centered titles.
+* On board cards, subtask rows without an open question now reach the card's edge, which gives their titles more room. The line between subtask rows is slightly thicker.
+* In a task sheet, an empty title shows a Title placeholder, Done is medium weight and the Send arrow is a little smaller. In a subtask's sheet, the parent task's name has more room above the title.
+* Inline code in a heading is now 13 pt, the same as in body text, and the description's placeholder hides while you edit it.
+
+[v3.4.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.4.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.4.0/Clearway-3.4.0.dmg" length="7462167" type="application/octet-stream" sparkle:edSignature="BGFNtw0757Z4/2xjN2OaRhieK4FblNRbxkfb0xc0Pi5XCeXvf2B5yrRak9SyPCLl+KXccpTyJ8+AWIwab6ucAw=="/>
+    </item>
+    <item>
       <title>Version 3.3.0</title>
       <pubDate>Fri, 13 Nov 2026 04:11:35 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
