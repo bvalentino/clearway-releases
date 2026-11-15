@@ -6,6 +6,23 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 3.7.0</title>
+      <pubDate>Sun, 15 Nov 2026 17:52:21 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Tasks and New Task now open in a panel that floats over the board instead of a sheet, so the board stays usable and clicking another card switches the panel to that task. Close the panel with its X button or Esc, and a New Task draft or a reply you were typing stays when you click away.
+* You can archive a task to take it off the board without losing it, and a toolbar menu switches the board to show archived tasks, where you can unarchive or delete them. In `cway`, `task archive` and `task unarchive` replace `task delete`, and deleting a task in the app is now permanent.
+* Tasks now have short keys made of the project key and a number, such as CLWY-12, shown on cards and in the task panel and accepted by every `cway` command. You can change a project's key with Change Key… on its sidebar row.
+* Agents can attach a text preview, such as a mockup, code or a diagram, to each option of a question with `cway question ask --preview`. The preview appears inside the option's button, and after you answer it also appears under the answer.
+* Long answer options in a question now wrap onto several lines instead of being cut off.
+
+[v3.7.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.7.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.7.0/Clearway-3.7.0.dmg" length="7826519" type="application/octet-stream" sparkle:edSignature="Me990ekl2AMOZV59Xn8pnFHkjUS3WLmUseSUkvnkiQYyIIInQxNnZkpbqFcSUzxX5sznVaxB1Oo9/Q4fRuYMBg=="/>
+    </item>
+    <item>
       <title>Version 3.6.0</title>
       <pubDate>Sat, 14 Nov 2026 18:37:30 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
