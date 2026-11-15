@@ -6,6 +6,24 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 3.8.0</title>
+      <pubDate>Sun, 15 Nov 2026 20:48:55 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Each board column now has a + button that creates a new task directly in that column's status. Its ⋯ menu can archive every card in the column, or unarchive them all in the archived view.
+* In the task sheet, clicking the status icon next to the title opens a menu to change the task's status, and running or copying the prompt is now an icon in the header. Buttons inside the sheet are now plain bordered buttons instead of white glass chips.
+* Reading a task with `cway task show` or `cway question show` now highlights it for 60 seconds instead of making it the session's task, so reading another task no longer redirects the session's work.
+* The agent skill now tells agents to ask every question about a Clearway task with `cway question ask`, so questions reach the task and the Inbox. Agents ask independent questions at the same time and hold back a question until any question it depends on is answered.
+* Unsaved edits in the task sheet are now saved before the task is archived or deleted, so they are no longer lost or applied out of order.
+* Option previews with box-drawing characters now draw solid vertical lines instead of dashed ones, and every row starts at the left instead of being centered.
+
+[v3.8.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v3.8.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v3.8.0/Clearway-3.8.0.dmg" length="7895242" type="application/octet-stream" sparkle:edSignature="oooB0AEGRp1lwyn6GDgGItqlCVVB0mrmfMtuA4X+EDXnIRHgnch+8H9oN5iUCawtakZURJ/9PyPSDyJ80w6jCQ=="/>
+    </item>
+    <item>
       <title>Version 3.7.0</title>
       <pubDate>Sun, 15 Nov 2026 17:52:21 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
