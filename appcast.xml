@@ -6,6 +6,25 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.0.0</title>
+      <pubDate>Wed, 18 Nov 2026 16:09:31 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Each board's ⋯ menu has Show Activity, which lists every change in the project by day, newest first. It shows whether you, an agent or GitHub made each change, updates live, and lets you filter, search and open a change's task.
+* Tasks and questions now live in an app database that the app and `cway` share, and your existing task and question files are imported once. Copy File Path is removed, and task and question output from `cway` no longer includes a path.
+* You can link a task to the issue it tracks with `cway task link-issue` and remove the link with `cway task unlink-issue`. The task shows its linked issue in the app, and `cway` prints it too.
+* `cway search` finds tasks and questions by their text, including archived tasks, with `--limit` and `--json` options. The agent skill now tells agents to use it.
+* A subtask can become a top-level task with Convert to Task… in its ⋯ menu or with `cway task convert-to-task`. It keeps everything except its parent.
+* When you switch away from Clearway, the open task's unsaved title and description are saved right away, so agents see your latest text. Quitting also saves a changed title, and offers Retry or Quit Anyway if that save fails.
+* In New Task, pressing Tab from the title now keeps focus in the description. Shift-Tab in any task's description moves focus back to the title.
+
+[v4.0.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.0.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.0.0/Clearway-4.0.0.dmg" length="8912259" type="application/octet-stream" sparkle:edSignature="jPM9mPs2ckfIbwYjooEocfbdRXuHLfxmqCwWXVPqw7nicK7U1r/oTqjnC2oBNSBgGK+cK8q1kAxuRKNgRVcVDg=="/>
+    </item>
+    <item>
       <title>Version 3.9.0</title>
       <pubDate>Mon, 16 Nov 2026 01:52:37 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
