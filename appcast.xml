@@ -6,6 +6,30 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.1.0</title>
+      <pubDate>Thu, 19 Nov 2026 19:47:55 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Any folder can now be a project, not only a git repository, and the New Project button opens a folder picker. Inside a plain folder, `cway` uses the nearest listed project folder, and removing a plain folder from the sidebar keeps its tasks.
+* Every install gets a Default project at your home folder once, and it opens on that first launch. Opening it never asks you to install Apple's Command Line Tools.
+* You can drag a card to a chosen spot within its lane or into another lane, and the lane opens a space where it will land.
+* You can drag subtasks in the task panel to reorder them, and a line shows where the row will land.
+* The board keeps the order of tasks, and `cway task reorder` lets agents move a task to the top or bottom of its lane or before or after another task. `cway task list` prints tasks in board order, and JSON output now includes each task's place.
+* You can rename a project from its sidebar menu, and the new name shows in the sidebar, toolbar, Inbox and notifications.
+* Parallel subagents in one Claude Code session now each keep their own task lit on the board. Existing installs are offered an Update to get the new hook setup.
+* Switching to another app now saves a New Task you have typed into, and your caret is still in place when you come back.
+* When the archived view is filtered by search, Delete All Archived… deletes only the cards the search shows, and its confirmation counts only those.
+* The board keeps its sideways scroll position when you leave Activity or open a task from it.
+* Clicking anywhere in the description area, including its margins or below the text, now puts the caret in the description.
+* Clearway no longer imports task files from versions before 4.0.
+
+[v4.1.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.1.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.1.0/Clearway-4.1.0.dmg" length="7740106" type="application/octet-stream" sparkle:edSignature="P37fOyuTmIGzsieh44c9ye9qLxMMkJS5y/JEPxiTIGrbifIop4WxGPJlw2dXzQbhs9Xzqsp8ay3S0JYfVXYUAg=="/>
+    </item>
+    <item>
       <title>Version 4.0.0</title>
       <pubDate>Wed, 18 Nov 2026 16:09:31 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
