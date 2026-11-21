@@ -6,6 +6,29 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.2.0</title>
+      <pubDate>Sat, 21 Nov 2026 15:49:40 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Agents can report how far along a task is with `cway task set-progress` and remove the report with `cway task clear-progress`, and the agent skill teaches them to do it. Cards, subtask rows and the task panel show the report as a progress bar, which stays through In Review and clears when the task moves to Done.
+* A dropped card or subtask row now shows in its new place as soon as you release it, instead of after a short delay. A card or row released over the task panel's text fields is no longer accepted there.
+* Each board column keeps its scroll position while Activity is open, so going back to the board no longer returns every column to the top.
+* A `cway` change that was saved no longer reports a failure because a different task in the project can't be read, so agents don't retry changes that already went through. `cway` error messages now name tasks by their key.
+* Dragging a card onto another project's window no longer moves a task there.
+* After a failed New Task write, a successful retry now clears the earlier error, so the alert no longer shows an error for a task that was saved.
+* The Archive All… prompt no longer counts a hand-nested subtask twice, so the number it shows matches what gets archived.
+* A repository opened from the Trash keeps its project even when it has no Clearway id in its Git settings, and its old location keeps its path when the folder is put back.
+* Renaming a project to its folder's name now works even with extra spaces, and the board shows the name exactly as it was saved. An invalid stored project key no longer causes an error, and the app uses the key it works out from the project instead.
+* The Command Line Tools row in setup no longer switches from Installed back to Install when an older check finishes late.
+* Stopping an agent now always clears its subagent records, so a later `cway` run is not credited to a subagent that already stopped.
+
+[v4.2.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.2.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.2.0/Clearway-4.2.0.dmg" length="7884495" type="application/octet-stream" sparkle:edSignature="1TnLUIY+mFDJ1FtN2sS8VCk+ERJ9GD5vKSMHW8YdsocSmjaRV8t0Ez+SYTBhV8dq6HikfkCSKkDVAXPIbNUkBQ=="/>
+    </item>
+    <item>
       <title>Version 4.1.0</title>
       <pubDate>Thu, 19 Nov 2026 19:47:55 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
