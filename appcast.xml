@@ -6,6 +6,25 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.3.0</title>
+      <pubDate>Mon, 23 Nov 2026 03:26:39 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>4.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Tasks and subtasks can now block each other, and chips on cards, subtask rows and the task sheet show what blocks a task and what it blocks. You add blocks from the task sheet or with `cway task block` and `cway task unblock`, and a block counts as resolved once the blocking task is done.
+* A task can link the git worktree it's worked in, set with `cway task link-worktree` and shown on the task sheet and as a folder mark on the card. Run Prompt runs in that worktree while it still exists, and the agent skill tells agents to link a worktree as soon as they create one.
+* The task sheet now has its own Activity section that lists each prompt run in Rex with the exact prompt text. A Show in Rex button opens the Rex session while it's still open, and project Activity gains a Runs filter.
+* The task sheet's ⋯ menu has a new Show in Rex item that brings Rex to the front on the session working on the task. The item is hidden when Rex has no such session open.
+* Run Prompt now opens a new tab in the task's open Rex session and only creates a new session when none is open. New sessions are named after the task's key and title.
+* The agent indicator no longer shows on tasks that are done.
+* The agent skill now tells agents that hand a task to a subagent to have it run `cway task show` on that task first, so the task shows the agent indicator.
+
+[v4.3.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.3.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.3.0/Clearway-4.3.0.dmg" length="8441417" type="application/octet-stream" sparkle:edSignature="tUrFX2Ou9GqZWFsrwT61lzlvNxVlWlFS1AYZ1Fn7r+rbav8e7uSOm0DxcMfXhkAyDWSVoxcza4PvvUj7XQIsDg=="/>
+    </item>
+    <item>
       <title>Version 4.2.0</title>
       <pubDate>Sat, 21 Nov 2026 15:49:40 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
