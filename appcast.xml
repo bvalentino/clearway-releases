@@ -6,6 +6,20 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.5.0</title>
+      <pubDate>Mon, 23 Nov 2026 18:55:46 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>4.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* The app uses much less CPU while agents work on tasks, and dragging the window no longer lags. The agent dots and the scrolling question banner look and behave the same as before.
+* On board cards and subtask rows, the links line and the question banner now start at the card's left edge. Every chip on the links line is now outlined.
+
+[v4.5.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.5.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.5.0/Clearway-4.5.0.dmg" length="8497199" type="application/octet-stream" sparkle:edSignature="7SzESdSAv2G+2y6DIiSgMstS8I7WhVhaR5PimSgX7LSssfxjZeuNiQT5ryHzUSaV5LO0yNC2DLSj4qpmzhngBA=="/>
+    </item>
+    <item>
       <title>Version 4.4.0</title>
       <pubDate>Mon, 23 Nov 2026 14:10:41 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
