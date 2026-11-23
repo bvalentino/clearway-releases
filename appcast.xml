@@ -6,6 +6,21 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.4.0</title>
+      <pubDate>Mon, 23 Nov 2026 14:10:41 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>4.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* A task or subtask with an open question now shows the question as a one-line scrolling banner on the board and in the task's subtask list. It replaces the dot, so you can see what the task is waiting on.
+* The Dock icon shows how many questions are open across your projects. It bounces until you switch to Clearway, and bounces again when a new question arrives.
+* Board cards have a new layout: each task's key now sits above its title, and the line under the title only appears when the task has links. The agent dots now run the full height of each card and subtask row, and the spacing is more even.
+
+[v4.4.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.4.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.4.0/Clearway-4.4.0.dmg" length="8485289" type="application/octet-stream" sparkle:edSignature="TM/Z79IdS3iFsLX9v7DzJoa/AB/4KtD+V0ugm3X+KyVqhuaW8NWk83aTmT7JCMFfdP+zA5B+m5iXohahvq/nBg=="/>
+    </item>
+    <item>
       <title>Version 4.3.0</title>
       <pubDate>Mon, 23 Nov 2026 03:26:39 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
