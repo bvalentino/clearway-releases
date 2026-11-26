@@ -6,6 +6,19 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 4.6.0</title>
+      <pubDate>Thu, 26 Nov 2026 05:05:47 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>4.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+* Show in Rex now has its own button with the Rex logo in the task sheet's header, next to the prompt button, so it's no longer in the ⋯ menu. As before, it only appears when the task has a Rex session to show.
+
+[v4.6.0 on GitHub](https://github.com/bvalentino/clearway-releases/releases/tag/v4.6.0)
+      ]]></description>
+      <enclosure url="https://github.com/bvalentino/clearway-releases/releases/download/v4.6.0/Clearway-4.6.0.dmg" length="8503785" type="application/octet-stream" sparkle:edSignature="NyrMPeKK6Zw+E2arRi0YQFdcsKudcDwccp1diT1GrUtBaKZwicVWNZX+hW+PvRdikpOIzWCoIT96dmkhD8tqDg=="/>
+    </item>
+    <item>
       <title>Version 4.5.0</title>
       <pubDate>Mon, 23 Nov 2026 18:55:46 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
